@@ -11,7 +11,7 @@ namespace AtelierCartes.Modeles
         private int id;
         private string marque;
         private string modele;
-        private decimal variante;
+        private string variante;
 
         #endregion
 
@@ -29,7 +29,7 @@ namespace AtelierCartes.Modeles
         public string Modele { get; set; }
 
         [JsonProperty("variant")]
-        public decimal Variante { get; set; }
+        public string Variante { get; set; }
         #endregion
 
     }

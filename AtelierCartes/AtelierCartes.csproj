@@ -74,7 +74,27 @@
 
 	<ItemGroup>
 	  <Folder Include="Services\" />
-	  <Folder Include="Vues\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Vues\ConnexionPage.xaml.cs">
+	    <DependentUpon>ConnexionPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Vues\OffrePage.xaml.cs">
+	    <DependentUpon>OffrePage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Vues\CartesPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Vues\ConnexionPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Vues\OffrePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
