@@ -73,10 +73,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Services\" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <Compile Update="Vues\ConnexionPage.xaml.cs">
 	    <DependentUpon>ConnexionPage.xaml</DependentUpon>
 	  </Compile>
